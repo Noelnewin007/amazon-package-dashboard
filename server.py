@@ -1,3 +1,6 @@
+import flask
+print(flask.__version__)  # This will print the Flask version
+
 from flask import Flask, jsonify, send_from_directory
 from flask_cors import CORS
 import random
