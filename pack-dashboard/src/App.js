@@ -19,7 +19,7 @@ function App() {
 
     fetchData(); // load once on page load
 
-    const interval = setInterval(fetchData, 5000); // every 10 minutes
+    const interval = setInterval(fetchData, 600000); // every 10 minutes
 
     return () => clearInterval(interval);
   }, []);
