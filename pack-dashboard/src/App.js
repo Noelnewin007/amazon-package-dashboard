@@ -37,7 +37,7 @@ function App() {
         margin: '0 auto',
         paddingTop: '40px'
       }}>
-        <h2>📦 Amazon Package Flow Dashboard</h2>
+        <h2>📦 Warehouse Package Monitoring System</h2>
 
         {alerts.length > 0 && (
           <div style={{ marginBottom: '20px' }}>
